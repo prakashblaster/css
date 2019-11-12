@@ -5,39 +5,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c9180b7965.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link href="./main.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <script src="./main.js"></script>
+    <title>dummy website</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home">home</a></li>
-                <li><a href="about">about</a></li>
-                <li><a href="services">services</a></li>
-                <li><a href="products">products</a></li>
-                <li><a href="contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
     <main>
-        <div class="container1">
-            <div>
-
-
+        <nav id="container-three">
+            <div class="button">
+                <div></div>
+                <i onclick="profile_close()" class="fas fa-times">
+                    </i>
+            </div>
+            <div class="nav-image">
+                <img src="./pics/user_three.jpg" alt="john">
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="nav-greeting">
+                <h2>Welcome</h2>
+            </div>
+            <div class="nav-name">
+                <h2>Tiana Donovan</h2>
+            </div>
+            <div class="nav-school">
+                <p>
+                    High school of performing arts korea
+                </p>
             </div>
 
-        </div>
+        </nav>
+        <nav id="container-1">
+            <div class="menu">
+                <div>
+                    <a class="a" href="home">
+                        <i class="fas fa-th-large"></i>
+                    </a>
+                </div>
+                <div class="b1">
+                    <a class="b" href="about">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="services">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <a href="products">
+                        <i class="far fa-heart"></i>
+                    </a>
+                    <a href="contact">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                </div>
+                <div class="c1">
+                    <a class="f" href="other">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="container-2">
+
+            <div class="dw-heading">
+                <h3>World free school education network</h3>
+            </div>
+            <div class="dw-box-statics">
+                <div class="dw-sub-statics">Statistics</div>
+                <div class="statistics">
+                    <div class="stats">
+                        <div class="stat-number">
+                            100
+                        </div>
+                        <div class="stat-text">
+                            <p>Highest</p>
+                            <p>Mark</p>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-number">
+                            567
+                        </div>
+                        <div class="stat-text">
+                            <p>Passed</p>
+                            <p>the Exam</p>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-number">
+                            6
+                        </div>
+                        <div class="stat-text">
+                            <p>Retake</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dw-box-result">
+                <div class="dw-sub-result">Exam results:</div>
+                <div class="theater">Theater History</div>
+            </div>
+            <div class="dw-profile">
+                <div class="person" onclick="profile_open()">
+                    <div class="pers-image">
+                        <img src="./pics/user_one.jpg" alt="john">
+                    </div>
+                    <div class="pers-info">
+                        <p style="font-size: 18px;font-weight: bold;">
+                            Samantha Rose</p>
+                        <p style="font-size: 14px;color: rgb(88, 88, 88);">
+                            Group: 12</p>
+                    </div>
+                    <div class="pers-score">
+                        <p style="font-weight: bold;color:#c4c4c4c7;
+                        font-size: 14px;">
+                            SCORE</p>
+                        <p style="font-weight: bold;color: blue;
+                        font-size: 14px;">100</p>
+                    </div>
+
+                </div>
+
+                <div class="person" onclick="profile_open()">
+                    <div class="pers-image">
+                        <img src="./pics/user_two.jpg" alt="john">
+                    </div>
+                    <div class="pers-info">
+                        <p style="font-size: 18px;font-weight: bold;">
+                            Lee Yoon Song</p>
+                        <p style="font-size: 14px;color: rgb(88, 88, 88);">
+                            Group: 12</p>
+                    </div>
+                    <div class="pers-score">
+                        <p style="font-weight: bold;color:#c4c4c4c7;
+                        font-size: 14px;">
+                            SCORE</p>
+                        <p style="font-weight: bold;color: blue;
+                        font-size: 14px;">89</p>
+                    </div>
+
+                </div>
+
+                <div class="person" onclick="profile_open()">
+                    <div class="pers-image">
+                        <img src="./pics/user_three.jpg" alt="john">
+                    </div>
+                    <div class="pers-info">
+                        <p style="font-size: 18px;font-weight: bold;">
+                            Tiana Donovan</p>
+                        <p style="font-size: 14px;color: rgb(88, 88, 88);">
+                            Group: 12</p>
+                    </div>
+                    <div class="pers-score">
+                        <p style="font-weight: bold;color:#c4c4c4c7;
+                        font-size: 14px;">
+                            SCORE</p>
+                        <p style="font-weight: bold;color: blue;
+                        font-size: 14px;">65</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="dw-blog">
+                <div class="blog-image">
+                    <img src="./dummy image.png" alt="Vector boy">
+                </div>
+                <div class="blog-text">
+                    <h2>Blog</h2>
+                    <div class="blog-para">
+                        <p>
+                            Lorem, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Distinctio, temporibus.
+                        </p>
+                        <p>Lorem ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. sit, amet consectetur adipisicing elit. Sed, inventore.</p>
+                    </div>
+                    <div class="inside-box">
+                        <div class="inside-one">
+                            <div class="time">
+                                <p>
+                                    Sep 25, 8.00 PM
+                                </p>
+                            </div>
+                            <div class="inside-text">
+                                <h2>
+                                    Free study conditions
+                                </h2>
+                            </div>
+                            <div class="inside-text">
+                                <h2>
+                                    in poland
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="inside-two">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
     </main>
-    <footer>
-
-    </footer>
-
-
-
-
 </body>
 
 </html>
